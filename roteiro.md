@@ -108,9 +108,9 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Figura 17: Endereço MAC e modo bridge - PC 1 VM2- Emylle
 <img src = "imagesEmylle/VM2Emylle_enderecoMACeModoBridge.jpg" />
 
-### Figura 18: Endereço MAC e modo bridge - PC 1 VM1- Renata
+### Figura 18: Endereço MAC e modo bridge - PC 2 VM1- Renata
 <img src ="imagesRenata/VM1renata_endereçoMAC.jpg" />
 
-### Figura 18: Endereço MAC e modo bridge - PC 1 VM2- Renata
+### Figura 18: Endereço MAC e modo bridge - PC 2 VM2- Renata
 <img src ="imagesRenata/VM2renata_endereçoMac.jpg" />
 
