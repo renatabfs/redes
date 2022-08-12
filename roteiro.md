@@ -55,11 +55,13 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 
 - Instalar o SSH com os comandos ```sudo apt-get install openssh-serve``` e ```systemctl status ssh```
-### Figura 7: Instalando o ssh - PC3 - Jefferson
+
+### Figura 7: Instalando o ssh - PC2 - Renata
+<img src = "imagesRenata/VMsrenata_baixandosshserver.jpg" />
+
+### Figura 8: Instalando o ssh - PC3 - Jefferson
 
 <img src = "imagesJefferson/Status SSH.png" />
-
-<img src = "imagesRenata/VMsrenata_baixandosshserver.jpg" />
 
 - Verificar o status e ver se a Porta 22 está ouvindo com o comando ```netstat -an | grep LISTEN.```
 ### Figura 8: Verificando status SSH - PC1 - Emylle
