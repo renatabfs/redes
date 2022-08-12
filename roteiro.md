@@ -45,7 +45,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Adicionando os Hostnames 
 - Executar o comando ```sudo hostnamectl set-hostname <hostname> ``` com os nomes dos integrantes do grupo definidos pela tabela.
 - Mudar as configurações de IP e a rede para NAT 
-- 
+
 ### Figura 5: Configurações de rede - PC1 - Emylle
 <img src = "imagesEmylle/NAT.png" />
 
@@ -54,7 +54,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesEmylle/Upgrade.jpg" />
 
 
-- Instalar o SSH com os comandos ```udo apt-get install openssh-serve``` e ```systemctl status ssh```
+- Instalar o SSH com os comandos ```sudo apt-get install openssh-serve``` e ```systemctl status ssh```
 ### Figura 7: Instalando o ssh - PC3 - Jefferson
 
 <img src = "imagesJefferson/Status SSH.png" />
