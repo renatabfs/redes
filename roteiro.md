@@ -73,11 +73,11 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Configurar o Firewall com os comandos ```sudo ufw allow ssh``` e ```sudo ufw status```
 - Em seguida, ativar o Firewall com  ```sudo ufw enable```
 
-### Figura 10: Verificando status FIrewal - PC 1 - Emylle
+### Figura 10: Verificando status Firewall - PC 1 - Emylle
 <img src = "imagesEmylle/VMsEmylle_configdeFirewall.jpg" />
 
-### Figura 11: Verificando status FIrewal - PC 3 - Jefferson
-<img src = "imagesJefferson/Status firewal - jefferson.png" />.
+### Figura 11: Verificando status Firewall - PC 3 - Jefferson
+<img src = "imagesJefferson/Status firewal - jefferson.png" />
 
 ## 4 PASSO
 ### Criar os users com o hostname dos integrantes do grupo
