@@ -81,11 +81,11 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 ## 4 PASSO
 ### Criar os users com o hostname dos integrantes do grupo
-- Crie os users com o comando ```sudo adduser <nomedointegrante>
+- Crie os users com o comando ```sudo adduser``` <nomedointegrante>
 - Adicione as informações que a máquina exigir
 
 ### Figura 12: Criando users - PC 2 - Renata
-<img src = "imagesRenata/VMsRenata_criandoaddusers.jpg"
+<img src = "imagesRenata/VMsRenata_criandoaddusers.jpg" />
 
 - Modificar o arquivo de hosts utilizando o comando ```sudo nano /etc/hosts```
 - Deve obedecer os seguintes formatos: <hostname/ip/dominio/aliase>
