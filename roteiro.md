@@ -81,36 +81,61 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 ## 4 PASSO
 ### Criar os users com o hostname dos integrantes do grupo
-- Crie os users com o comando ```sudo adduser``` <nomedointegrante>
+- Crie os users com o comando ```sudo adduser``` <nomedosintegrantes>
 - Adicione as informações que a máquina exigir
 
 ### Figura 12: Criando users - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_criandoaddusers.jpg" />
+ 
+### Figura 13: Users criados - PC 1 - Emylle
+<img src = "imagesEmylle/TodosOsUSersCriados.jpg"/>
+
+### Figura 14: Users criados - PC 2 - Renata
+<img src = "imagesRenata/TodosOsUSersCriados(1).jpg" />
+ 
+### Figura 15: Users criados - PC 3 - Jefferson
+<img src = "imagesJefferson/usuarios(jefferson).png" />
 
 - Modificar o arquivo de hosts utilizando o comando ```sudo nano /etc/hosts```
 - Deve obedecer os seguintes formatos: <hostname/ip/dominio/aliase>
 
-### Figura 13: Config de host - PC 1 - Emylle
+### Figura 16: Config de host - PC 1 - Emylle
 <img src = "imagesEmylle/VMsEmylle_confdeHosts.jpg" />
 
-### Figura 14: Config de host - PC 2 - Renata
+### Figura 17: Config de host - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_configuracoesdeHost.jpg" />
 
-### Figura 15: Config de host - PC 3 - Jefferson
+### Figura 18: Config de host - PC 3 - Jefferson
 <img src = "imagesJefferson/Hosts - jefferson.png" />
 
 - Colocar as configurações de rede em Modo Bridge
 - Verificar se os endereços MAC's não estão iguais
 
-### Figura 16: Endereço MAC e modo bridge - PC 1 VM1- Emylle
+### Figura 19: Endereço MAC e modo bridge - PC 1 VM1- Emylle
 <img src = "imagesEmylle/VM1Emylle_enderecoMACeModobridge.jpg" />
 
-### Figura 17: Endereço MAC e modo bridge - PC 1 VM2- Emylle
+### Figura 20: Endereço MAC e modo bridge - PC 1 VM2- Emylle
 <img src = "imagesEmylle/VM2Emylle_enderecoMACeModoBridge.jpg" />
 
-### Figura 18: Endereço MAC e modo bridge - PC 2 VM1- Renata
+### Figura 21: Endereço MAC e modo bridge - PC 2 VM1- Renata
 <img src ="imagesRenata/VM1renata_endereçoMAC.jpg" />
 
-### Figura 18: Endereço MAC e modo bridge - PC 2 VM2- Renata
+### Figura 22: Endereço MAC e modo bridge - PC 2 VM2- Renata
 <img src ="imagesRenata/VM2renata_endereçoMac.jpg" />
 
+## 5 PASSO - ATIVAR O HOST ONLY
+ - Ativar a interface no computador para a comunicação Host-VM
+ - Configurar o servidor DCHP do adaptador VnetBox0
+ 
+ ### Figura 22: DHCP - PC 3 - Jefferson
+ <img src = "imagesJefferson/Netplan das VMs.png" />
+
+ 
+  ### Figura 23: Vnetbox0 - PC 3 - Jefferson
+ <img src = "imagesJefferson/Jefferson_VM-01(hostonly).png" />
+ 
+ - Ativar as configurações da interface na VM para o servidor dhcp para o adaptador 2 (enp0s8)
+ 
+ ### Figura 24: enp0s8 - PC 3 - Jefferson
+ <img src = "imagesJefferson/Ifconfig das máquinas - jefferson.png" />
+ 
