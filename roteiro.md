@@ -1,16 +1,16 @@
-## 1 PASSO
-# Importar as ISOS
+# 1 PASSO
+## Importar as ISOS
  - Importar as isos e configurar com o nome dos integrantes do grupo.
 ### Figura 1: Importação da ISO - PC1-Emylle
 <img src = "imagesEmylle/importandoiso.png" />
 <img src = "imagesEmylle/Criando a iso.png" />
 
-## 2 PASSO
-# Configurar os Ip's no netplan
+# 2 PASSO
+## Configurar os Ip's no netplan
 - Abrir as VMs e fazer login no ```administrador```
 - Senha: ```adminifal```
 
-# Para acessar o netplan:
+### Para acessar o netplan:
 - Executar o comando
 
 ```
