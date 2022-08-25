@@ -1,6 +1,7 @@
 # 1 PASSO
 ## Importar as ISOS
  - Importar as isos e configurar com o nome dos integrantes do grupo.
+ - A iso pode ser baixada pelo Nautilus.
 ### Figura 1: Importação da ISO - PC1-Emylle
 <img src = "imagesEmylle/importandoiso.png" />
 <img src = "imagesEmylle/Criando a iso.png" />
@@ -11,14 +12,14 @@
 - Senha: ```adminifal```
 
 ### Para acessar o netplan:
-- Executar o comando
+- Executar o comando.
 
 ```
 sudo nano /etc/netplan/01-netcfg.yaml
 ```
 - Se não possuir o arquivo verificar o nome dele com ``` ls -la /etc/netplan ```
-- Retirar o renderer
-- Adicionar o gateway4 e o addresses com os IP's da equipe
+- Retirar o renderer.
+- Adicionar o gateway4 e o addresses com os IP's da equipe.
 - Adicionar dhcp4: false
 
 ### Figura 2: Arquivo netplan - PC1 - Emylle
@@ -33,7 +34,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesJefferson/Netplan das VMs.png" />
 
 - Por fim, executar ``` sudo netplan apply ```
-- Verificar no ``` ifconfig -a ``` se alterações foram bem feitas
+- Verificar no ``` ifconfig -a ``` se alterações foram aplicadas.
  
 ### Figura 4: Ifconfig - PC2 - Renata
 <img src = "imagesRenata/VMsRenata_ifconfigs.jpg" />
