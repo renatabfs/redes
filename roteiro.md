@@ -2,6 +2,7 @@
 ## Importar as ISOS
  - Importar as isos e configurar com o nome dos integrantes do grupo.
  - A iso pode ser baixada pelo Nautilus.
+ - 
 ### Figura 1: Importação da ISO - PC1-Emylle
 <img src = "imagesEmylle/importandoiso.png" />
 <img src = "imagesEmylle/Criando a iso.png" />
@@ -23,11 +24,11 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Adicionar dhcp4: false
 
 ### Figura 2: Arquivo netplan - PC1 - Emylle
-<img src = "imagesEmylle/VMsEmylle_enderecosIPestaticos.jpg" />
+<img src = "imagesEmylle/netconfig.png" />
 
 ### Figura 3: Arquivo netplan - PC2 - Renata
 
-<img src = "imagesRenata/VMsRenata_enderecoIPestatico.jpg" />
+<img src = "imagesRenata/Netplan.png" />
 
 ### Figura 4: Arquivo netplan - PC3 - Jefferson
 
@@ -37,7 +38,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Verificar no ``` ifconfig -a ``` se alterações foram aplicadas.
  
 ### Figura 4: Ifconfig - PC2 - Renata
-<img src = "imagesRenata/VMsRenata_ifconfigs.jpg" />
+<img src = "imagesRenata/Ifconfig.png" />
 
 - Caso o comando não exista, executar ``` sudo apt install net-tools```
 
@@ -45,11 +46,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ## Configurar o SSH
 ### Adicionando os Hostnames 
 - Executar o comando ```sudo hostnamectl set-hostname <hostname> ``` com os nomes dos integrantes do grupo definidos pela tabela.
-
-### Figura 5: Adicionando os Hosts no PC4
-<img src = "imagesPC4/setandohostsPC4.png"
-     
-- Mudar as configurações de IP e a rede para NAT .
+- Mudar as configurações de IP e a rede para NAT 
 
 ### Figura 5: Configurações de rede - PC1 - Emylle
 <img src = "imagesEmylle/NAT.png" />
@@ -59,10 +56,10 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesEmylle/Upgrade.jpg" />
 
 
-- Instalar o SSH com os comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```
+- Instalar o SSH com os comandos ```sudo apt-get install openssh-serve``` e ```systemctl status ssh```
 
 ### Figura 7: Instalando o ssh - PC2 - Renata
-<img src = "imagesRenata/VMsrenata_baixandosshserver.jpg" />
+<img src = "imagesRenata/SSH.png" />
 
 ### Figura 8: Instalando o ssh - PC3 - Jefferson
 
@@ -70,39 +67,36 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 - Verificar o status e ver se a Porta 22 está ouvindo com o comando ```netstat -an | grep LISTEN.```
 ### Figura 8: Verificando status SSH - PC1 - Emylle
-<img src = "imagesEmylle/VMsEmylle_portas22sshListening.jpg" />
+<img src = "imagesEmylle/Listen.png" />
 
 ### Figura 9: Verificando status SSH - PC2 - Renata
-<img src = "imagesRenata/VMsRenata_portas22sshListening.jpg" />
-
-### Figura 9: Verificando status SSH - PC4
-<img src = "imagesPC4/portas22LISTENINGpc4.png" />
+<img src = "imagesRenata/Lsiten.png" />
 
 - Configurar o Firewall com os comandos ```sudo ufw allow ssh``` e ```sudo ufw status```
 - Em seguida, ativar o Firewall com  ```sudo ufw enable```
 
 ### Figura 10: Verificando status Firewall - PC 1 - Emylle
-<img src = "imagesEmylle/VMsEmylle_configdeFirewall.jpg" />
+<img src = "imagesEmylle/firewall.png" />
+
+### Figura 11: Verificando status Firewall - PC 2 - Renata
+<img src = "imagesRenata/StatusFirewall.png" />
 
 ### Figura 11: Verificando status Firewall - PC 3 - Jefferson
 <img src = "imagesJefferson/Status firewal - jefferson.png" />
 
-### Figura 11: Verificando status Firewall - PC 4
-<img src = "imagesPC4/firewallallorportas22pc4.png />
-
 ## 4 PASSO
-### Criar os users com o hostname dos integrantes do grupo.
+### Criar os users com o hostname dos integrantes do grupo
 - Crie os users com o comando ```sudo adduser``` <nomedosintegrantes>
-- Adicione as informações que a máquina exigir.
+- Adicione as informações que a máquina exigir
 
 ### Figura 12: Criando users - PC 2 - Renata
-<img src = "imagesRenata/VMsRenata_criandoaddusers.jpg" />
+<img src = "imagesRenata/AddUser.png" />
  
 ### Figura 13: Users criados - PC 1 - Emylle
-<img src = "imagesEmylle/TodosOsUSersCriados.jpg"/>
+<img src = "imagesEmylle/usuarios.png"/>
 
 ### Figura 14: Users criados - PC 2 - Renata
-<img src = "imagesRenata/TodosOsUSersCriados(1).jpg" />
+<img src = "imagesRenata/UsersAdicionados.png"/>
  
 ### Figura 15: Users criados - PC 3 - Jefferson
 <img src = "imagesJefferson/usuarios(jefferson).png" />
@@ -111,10 +105,10 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Deve obedecer os seguintes formatos: <hostname/ip/dominio/aliase>
 
 ### Figura 16: Config de host - PC 1 - Emylle
-<img src = "imagesEmylle/VMsEmylle_confdeHosts.jpg" />
+<img src = "imagesEmylle/hosts.png" />
 
 ### Figura 17: Config de host - PC 2 - Renata
-<img src = "imagesRenata/VMsRenata_configuracoesdeHost.jpg" />
+<img src = "imagesRenata/ArquivoHosts.png" />
 
 ### Figura 18: Config de host - PC 3 - Jefferson
 <img src = "imagesJefferson/Hosts - jefferson.png" />
@@ -123,16 +117,14 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Verificar se os endereços MAC's não estão iguais
 
 ### Figura 19: Endereço MAC e modo bridge - PC 1 VM1- Emylle
-<img src = "imagesEmylle/VM1Emylle_enderecoMACeModobridge.jpg" />
+<img src = "imagesEmylle/modo bridge - vm01.png" />
 
 ### Figura 20: Endereço MAC e modo bridge - PC 1 VM2- Emylle
-<img src = "imagesEmylle/VM2Emylle_enderecoMACeModoBridge.jpg" />
+<img src = "imagesEmylle/modo bridge-vm02.png" />
 
 ### Figura 21: Endereço MAC e modo bridge - PC 2 VM1- Renata
-<img src ="imagesRenata/VM1renata_endereçoMAC.jpg" />
+<img src ="imagesRenata/ModoBridge.png" />
 
-### Figura 22: Endereço MAC e modo bridge - PC 2 VM2- Renata
-<img src ="imagesRenata/VM2renata_endereçoMac.jpg" />
 
 ## 5 PASSO - ATIVAR O HOST ONLY
  - Ativar a interface no computador para a comunicação Host-VM
