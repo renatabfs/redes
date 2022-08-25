@@ -88,7 +88,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesJefferson/Status firewal - jefferson.png" />
 
 ### Figura 11: Verificando status Firewall - PC 4
-<img src = "imagesPC4/firewallallorportas22pc4.png />
+<img src = "imagesPC4/firewallallorportas22pc4.png" />
 
 ## 4 PASSO
 ### Criar os users com o hostname dos integrantes do grupo.
@@ -98,6 +98,9 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Figura 12: Criando users - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_criandoaddusers.jpg" />
  
+ ### Figura 12: Criando users - PC 4
+<img src = "imagesPC4/adicionandousersPC4.png" />
+ 
 ### Figura 13: Users criados - PC 1 - Emylle
 <img src = "imagesEmylle/TodosOsUSersCriados.jpg"/>
 
@@ -106,18 +109,24 @@ sudo nano /etc/netplan/01-netcfg.yaml
  
 ### Figura 15: Users criados - PC 3 - Jefferson
 <img src = "imagesJefferson/usuarios(jefferson).png" />
+                                                    
+## Figura 15: Users criados - PC 4
+<img src = "imagesPC4/userscriadosPC4.png" />
 
 - Modificar o arquivo de hosts utilizando o comando ```sudo nano /etc/hosts```
 - Deve obedecer os seguintes formatos: <hostname/ip/dominio/aliase>
 
 ### Figura 16: Config de host - PC 1 - Emylle
-<img src = "imagesEmylle/VMsEmylle_confdeHosts.jpg" />
+<img src = "imagesEmylle/hosts.png" />
 
 ### Figura 17: Config de host - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_configuracoesdeHost.jpg" />
 
 ### Figura 18: Config de host - PC 3 - Jefferson
 <img src = "imagesJefferson/Hosts - jefferson.png" />
+ 
+ ### Figura 18: Config de host - PC 4
+<img src = "imagesPC4/adicionaetchostsPC4.png" />
 
 - Colocar as configurações de rede em Modo Bridge
 - Verificar se os endereços MAC's não estão iguais
@@ -133,6 +142,12 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 ### Figura 22: Endereço MAC e modo bridge - PC 2 VM2- Renata
 <img src ="imagesRenata/VM2renata_endereçoMac.jpg" />
+ 
+ ### Figura 21: Endereço MAC e modo bridge - PC 4 VM1
+<img src ="imagesPC4/VM1bridgeEndMacPC4.png" />
+
+### Figura 22: Endereço MAC e modo bridge - PC 4 VM2
+<img src ="imagesPC4/VM2bridgeEndMacPC4.png" />
 
 ## 5 PASSO - ATIVAR O HOST ONLY
  - Ativar a interface no computador para a comunicação Host-VM
