@@ -45,7 +45,11 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ## Configurar o SSH
 ### Adicionando os Hostnames 
 - Executar o comando ```sudo hostnamectl set-hostname <hostname> ``` com os nomes dos integrantes do grupo definidos pela tabela.
-- Mudar as configurações de IP e a rede para NAT 
+
+### Figura 5: Adicionando os Hosts no PC4
+<img src = "imagesPC4/setandohostsPC4.png"
+     
+- Mudar as configurações de IP e a rede para NAT .
 
 ### Figura 5: Configurações de rede - PC1 - Emylle
 <img src = "imagesEmylle/NAT.png" />
@@ -55,7 +59,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesEmylle/Upgrade.jpg" />
 
 
-- Instalar o SSH com os comandos ```sudo apt-get install openssh-serve``` e ```systemctl status ssh```
+- Instalar o SSH com os comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```
 
 ### Figura 7: Instalando o ssh - PC2 - Renata
 <img src = "imagesRenata/VMsrenata_baixandosshserver.jpg" />
@@ -71,6 +75,9 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Figura 9: Verificando status SSH - PC2 - Renata
 <img src = "imagesRenata/VMsRenata_portas22sshListening.jpg" />
 
+### Figura 9: Verificando status SSH - PC4
+<img src = "imagesPC4/portas22LISTENINGpc4.png" />
+
 - Configurar o Firewall com os comandos ```sudo ufw allow ssh``` e ```sudo ufw status```
 - Em seguida, ativar o Firewall com  ```sudo ufw enable```
 
@@ -80,10 +87,13 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Figura 11: Verificando status Firewall - PC 3 - Jefferson
 <img src = "imagesJefferson/Status firewal - jefferson.png" />
 
+### Figura 11: Verificando status Firewall - PC 4
+<img src = "imagesPC4/firewallallorportas22pc4.png />
+
 ## 4 PASSO
-### Criar os users com o hostname dos integrantes do grupo
+### Criar os users com o hostname dos integrantes do grupo.
 - Crie os users com o comando ```sudo adduser``` <nomedosintegrantes>
-- Adicione as informações que a máquina exigir
+- Adicione as informações que a máquina exigir.
 
 ### Figura 12: Criando users - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_criandoaddusers.jpg" />
