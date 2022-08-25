@@ -37,7 +37,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Por fim, executar ``` sudo netplan apply ```
 - Verificar no ``` ifconfig -a ``` se alterações foram aplicadas.
  
-### Figura 4: Ifconfig - PC2 - Renata
+### Figura 5: Ifconfig - PC2 - Renata
 <img src = "imagesRenata/VMsRenata_ifconfigs.jpg" />
 
 - Caso o comando não exista, executar ``` sudo apt install net-tools```
@@ -47,51 +47,51 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Adicionando os Hostnames 
 - Executar o comando ```sudo hostnamectl set-hostname <hostname> ``` com os nomes dos integrantes do grupo definidos pela tabela.
 
-### Figura 5: Adicionando os Hosts no PC4
+### Figura 6: Adicionando os Hosts no PC4
 <img src = "imagesPC4/setandohostsPC4.png" />
      
 - Mudar as configurações de IP e a rede para NAT .
 
-### Figura 6: Configurações de rede - PC1 - Emylle
+### Figura 7: Configurações de rede - PC1 - Emylle
 <img src = "imagesEmylle/NAT.png" />
 
-### Figura 7: Configurações de rede - PC2 - Renata
+### Figura 8: Configurações de rede - PC2 - Renata
 <img src = "imagesRenata/NAT.png" />
 
 - Executar os comandos ```sudo apt update e sudo apt upgrade -y``` para verificar se as máquinas estão tendo acesso à internet.
-### Figura 8: Upgrade - PC1 - Emylle
+### Figura 9: Upgrade - PC1 - Emylle
 <img src = "imagesEmylle/Upgrade.jpg" />
 
 
 - Instalar o SSH com os comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```
 
-### Figura 9: Instalando o ssh - PC2 - Renata
+### Figura 10: Instalando o ssh - PC2 - Renata
 <img src = "imagesRenata/VMsrenata_baixandosshserver.jpg" />
 
-### Figura 10: Instalando o ssh - PC3 - Jefferson
+### Figura 11: Instalando o ssh - PC3 - Jefferson
 
 <img src = "imagesJefferson/Status SSH.png" />
 
 - Verificar o status e ver se a Porta 22 está ouvindo com o comando ```netstat -an | grep LISTEN.```
-### Figura 11: Verificando status SSH - PC1 - Emylle
+### Figura 12: Verificando status SSH - PC1 - Emylle
 <img src = "imagesEmylle/VMsEmylle_portas22sshListening.jpg" />
 
-### Figura 12: Verificando status SSH - PC2 - Renata
+### Figura 13: Verificando status SSH - PC2 - Renata
 <img src = "imagesRenata/VMsRenata_portas22sshListening.jpg" />
 
-### Figura 13: Verificando status SSH - PC4
+### Figura 14: Verificando status SSH - PC4
 <img src = "imagesPC4/portas22LISTENINGpc4.png" />
 
 - Configurar o Firewall com os comandos ```sudo ufw allow ssh``` e ```sudo ufw status```
 - Em seguida, ativar o Firewall com  ```sudo ufw enable```
 
-### Figura 14: Verificando status Firewall - PC 1 - Emylle
+### Figura 15: Verificando status Firewall - PC 1 - Emylle
 <img src = "imagesEmylle/VMsEmylle_configdeFirewall.jpg" />
 
-### Figura 15: Verificando status Firewall - PC 3 - Jefferson
+### Figura 16: Verificando status Firewall - PC 3 - Jefferson
 <img src = "imagesJefferson/Status firewal - jefferson.png" />
 
-### Figura 16: Verificando status Firewall - PC 4
+### Figura 17: Verificando status Firewall - PC 4
 <img src = "imagesPC4/firewallallorportas22pc4.png" />
 
 ## 4 PASSO
@@ -99,73 +99,73 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Crie os users com o comando ```sudo adduser``` <nomedosintegrantes>
 - Adicione as informações que a máquina exigir.
 
-### Figura 17: Criando users - PC 2 - Renata
+### Figura 18: Criando users - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_criandoaddusers.jpg" />
  
- ### Figura 18: Criando users - PC 4
+ ### Figura 19: Criando users - PC 4
 <img src = "imagesPC4/adicionandousersPC4.png" />
  
-### Figura 19: Users criados - PC 1 - Emylle
+### Figura 20: Users criados - PC 1 - Emylle
 <img src = "imagesEmylle/TodosOsUSersCriados.jpg"/>
 
-### Figura 20: Users criados - PC 2 - Renata
+### Figura 21: Users criados - PC 2 - Renata
 <img src = "imagesRenata/TodosOsUSersCriados(1).jpg" />
  
-### Figura 21: Users criados - PC 3 - Jefferson
+### Figura 22: Users criados - PC 3 - Jefferson
 <img src = "imagesJefferson/usuarios(jefferson).png" />
                                                     
-## Figura 22: Users criados - PC 4
+## Figura 23: Users criados - PC 4
 <img src = "imagesPC4/userscriadosPC4.png" />
 
 - Modificar o arquivo de hosts utilizando o comando ```sudo nano /etc/hosts```
 - Deve obedecer os seguintes formatos: <hostname/ip/dominio/aliase>
 
-### Figura 23: Config de host - PC 1 - Emylle
+### Figura 24: Config de host - PC 1 - Emylle
 <img src = "imagesEmylle/hosts.png" />
 
-### Figura 24: Config de host - PC 2 - Renata
+### Figura 25: Config de host - PC 2 - Renata
 <img src = "imagesRenata/VMsRenata_configuracoesdeHost.jpg" />
 
-### Figura 25: Config de host - PC 3 - Jefferson
+### Figura 26: Config de host - PC 3 - Jefferson
 <img src = "imagesJefferson/Hosts - jefferson.png" />
  
- ### Figura 26: Config de host - PC 4
+ ### Figura 27: Config de host - PC 4
 <img src = "imagesPC4/adicionaetchostsPC4.png" />
 
 - Colocar as configurações de rede em Modo Bridge
 - Verificar se os endereços MAC's não estão iguais
 
-### Figura 27: Endereço MAC e modo bridge - PC 1 VM1- Emylle
+### Figura 28: Endereço MAC e modo bridge - PC 1 VM1- Emylle
 <img src = "imagesEmylle/VM1Emylle_enderecoMACeModobridge.jpg" />
 
-### Figura 28: Endereço MAC e modo bridge - PC 1 VM2- Emylle
+### Figura 29: Endereço MAC e modo bridge - PC 1 VM2- Emylle
 <img src = "imagesEmylle/VM2Emylle_enderecoMACeModoBridge.jpg" />
 
-### Figura 29: Endereço MAC e modo bridge - PC 2 VM1- Renata
+### Figura 30: Endereço MAC e modo bridge - PC 2 VM1- Renata
 <img src ="imagesRenata/VM1renata_endereçoMAC.jpg" />
 
-### Figura 30: Endereço MAC e modo bridge - PC 2 VM2- Renata
+### Figura 31: Endereço MAC e modo bridge - PC 2 VM2- Renata
 <img src ="imagesRenata/VM2renata_endereçoMac.jpg" />
  
- ### Figura 31: Endereço MAC e modo bridge - PC 4 VM1
+ ### Figura 32: Endereço MAC e modo bridge - PC 4 VM1
 <img src ="imagesPC4/VM1bridgeEndMacPC4.png" />
 
-### Figura 32: Endereço MAC e modo bridge - PC 4 VM2
+### Figura 33: Endereço MAC e modo bridge - PC 4 VM2
 <img src ="imagesPC4/VM2bridgeEndMacPC4.png" />
 
 ## 5 PASSO - ATIVAR O HOST ONLY
  - Ativar a interface no computador para a comunicação Host-VM
  - Configurar o servidor DCHP do adaptador VnetBox0
  
- ### Figura 33: DHCP - PC 3 - Jefferson
+ ### Figura 34: DHCP - PC 3 - Jefferson
  <img src = "imagesJefferson/Netplan das VMs.png" />
 
  
-  ### Figura 34: Vnetbox0 - PC 3 - Jefferson
+  ### Figura 35: Vnetbox0 - PC 3 - Jefferson
  <img src = "imagesJefferson/Jefferson_VM-01(hostonly).png" />
  
  - Ativar as configurações da interface na VM para o servidor dhcp para o adaptador 2 (enp0s8)
  
- ### Figura 35: enp0s8 - PC 3 - Jefferson
+ ### Figura 36: enp0s8 - PC 3 - Jefferson
  <img src = "imagesJefferson/Ifconfig das máquinas - jefferson.png" />
  
