@@ -1,3 +1,5 @@
+# [Ficha Técnica](https://github.com/renatabfs/redes/blob/main/Ficha%20T%C3%A9cnica.md) 
+
 # PLANEJAMENTO
 ```
 Tabela 1: Planilha de IP's
@@ -206,4 +208,4 @@ sudo nano /etc/netplan/01-netcfg.yaml
  ### Figura 42: enp0s8 - PC 3 - Jefferson
  <img src = "imagesJefferson/Ifconfig.png" />
  
-### OS resultados serão encontrados em: https://github.com/renatabfs/redes/blob/main/resultados.md
+# [Resultados](https://github.com/renatabfs/redes/blob/main/resultados.md)
