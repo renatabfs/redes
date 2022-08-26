@@ -18,3 +18,9 @@
      
 ## Figura 6: VM2 - Jefferson 
 <img src="imagesJefferson/ficha tecnica VM 02 - jefferson.png" />
+
+## Figura 7: VM1 - PC4 
+<img src="imagesPC4/fichatecnicapc4vm1.png" />
+
+## Figura 8: VM2 - PC4 
+<img src="imagesPC4/fichatecnicapc4vm2.png" />
