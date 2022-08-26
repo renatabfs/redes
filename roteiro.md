@@ -58,6 +58,9 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Por fim, executar ``` sudo netplan apply ```
 - Verificar no ``` ifconfig -a ``` se alterações foram aplicadas.
  
+ ### Figura 6: Ifconfig - PC1 - Emylle
+<img src = "imagesEmylle/ifconfigVMemylle.png " />
+
 ### Figura 6: Ifconfig - PC2 - Renata
 <img src = "imagesRenata/Ifconfig.png" />
 
