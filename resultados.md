@@ -1,7 +1,7 @@
 # Testando resultados do projeto.
 
-## 1 passo
-### Executar os pings do HostOnly para as outras máquinas.
+# 1 passo
+## Executar os pings do HostOnly para as outras máquinas.
 
 - Executar o comando ```ping <IP da máquina> ```
 
