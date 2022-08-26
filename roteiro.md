@@ -179,6 +179,12 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Figura 34: Endereço MAC e modo bridge - PC 2 VM1- Renata
 <img src ="imagesRenata/ModoBridge.png" />
  
+ ### Figura 34: Endereço MAC e modo bridge - PC 3 VM1- Jefferson
+<img src ="imagesJefferson/modo brigde1.png" />
+ 
+ ### Figura 35: Endereço MAC e modo bridge - PC 3 VM2- Jefferson
+<img src ="imagesJefferson/modo bridge 2.png" />
+ 
  ### Figura 35: Endereço MAC e modo bridge - PC 4 VM1
 <img src ="imagesPC4/VM1bridgeEndMacPC4.png" />
 
@@ -192,7 +198,6 @@ sudo nano /etc/netplan/01-netcfg.yaml
  ### Figura 37: DHCP - PC 3 - Jefferson
  <img src = "imagesJefferson/Netplan.png" />
 
- 
   ### Figura 38: Vnetbox0 - PC 3 - Jefferson
  <img src = "imagesJefferson/Jefferson_VM-01(hostonly).png" />
  
