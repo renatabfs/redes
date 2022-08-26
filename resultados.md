@@ -5,33 +5,32 @@
 
 - Executar o comando ```ping <IP da máquina> ```
 
-### Imagem 1: Teste de ping - Emylle - PC1VM1
+### Imagem 1: Teste de ping - Emylle - PC1VM1 e PC1VM2
 
-<img src = "imagesJefferson/VMjefferson_testeping(97).jpg" />
+<img src = "imagesJefferson/ping_emylle.png" />
 
-### Imagem 2: Teste de ping - Emylle - PC1VM2
+### Imagem 2: Teste de ping - Renata - PC2VM1 e PC2VM2
 
-<img src = "imagesJefferson/VMjefferson_testeping(98)-.jpg" />
+<img src = "imagesJefferson/ping_renata.png"/>
 
-### Imagem 3: Teste de ping - Renata - PC2VM1
+### Imagem 3: Teste de ping - Jefferson - PC3VM2
 
-<img src = "imagesJefferson/VMjefferson_testeping(99).jpeg" />
+<img src = "imagesJefferson/ping_jefferson.png" />
 
-### Imagem 4: Teste de ping - Renata - PC2VM2
+### Imagem 4: Teste de ping - PC4VM1 e PC4VM2
 
-<img src = "imagesJefferson/VMjefferson_testeping(100).jpeg" />
-
-### Imagem 5: Teste de ping - Jefferson - PC3VM2
-
-<img src = "imagesJefferson/VMjefferson_testeping(102).jpg" />
+<img src = "imagesJefferson/ping_pc4.png" />
 
 ### Logar nos usuários dos outros integrantes via HostOnly.
 
-### Imagem 6: Logando via HostOnly - Emylle - PC1
+### Imagem 5: Logando via HostOnly - Emylle - PC1
 <img src = "imagesJefferson/HostOnly_emylle.png" />
 
-### Imagem 7: Logando via HostOnly - Renata - PC2
+### Imagem 6: Logando via HostOnly - Renata - PC2
 <img src = "imagesJefferson/HostOnly_renata.png" />
 
-### Imagem 8: Logando via HostOnly - Jefferson - PC3
+### Imagem 7: Logando via HostOnly - Jefferson - PC3
 <img src = "imagesJefferson/HostOnly_jefferson.png" />
+
+### Imagem 7: Logando via HostOnly - PC4
+<img src = "imagesJefferson/dentro_pc4.png " />
