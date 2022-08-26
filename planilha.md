@@ -1,5 +1,5 @@
 ```
-Tabela 1: Planilha de Ips
+Tabela 1: Planilha de IP's
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 |  DESCRICAO                    |          IP            |     hostname             |          FQDN                     |      aliase      |
@@ -9,7 +9,7 @@ Tabela 1: Planilha de Ips
 | PC2-GRUPO7-VMLab01-Renata     | 192.168.14.99/28       |    renata1-grupo7        | renata1.grupo7-914.ifalara.net    |       ren1       |
 | PC2-GRUPO7-VMLab02-Renata     | 192.168.14.100/28      |    renata2-grupo7        | renata2.grupo7-914.ifalara.net    |       ren2       |
 | PC3-GRUPO7-VMLab01-Jefferson  | 192.168.14.101/28      |    jefferson1-grupo7     | jefferson1.grupo7-914.ifalara.net |       jef1       |
-| PC3-GRUPO7-VMLab02-Jefferson  | 192.168.14.102/28      |    jefferson2-grupo7     | jefferson2.grupo7-914.ifalara.net |       jef2
-| PC4-GRUPO7-VM1-equipe7-914    | 192.168.14.103/28      |    vm1-pc4-grupo7        | vm1-pc4.grupo7-914.ifalara.net    |       vm1
-| PC4-GRUPO7-VM1-equipe7-914    | 192.168.14.104/28      |    vm2-pc4-grupo7        | vm2-pc4.grupo7-914.ifalara.net    |       vm2
+| PC3-GRUPO7-VMLab02-Jefferson  | 192.168.14.102/28      |    jefferson2-grupo7     | jefferson2.grupo7-914.ifalara.net |       jef2       |
+| PC4-GRUPO7-VM1-equipe7-914    | 192.168.14.103/28      |    vm1-pc4-grupo7        | vm1-pc4.grupo7-914.ifalara.net    |       vm1        |
+| PC4-GRUPO7-VM1-equipe7-914    | 192.168.14.104/28      |    vm2-pc4-grupo7        | vm2-pc4.grupo7-914.ifalara.net    |       vm2        |
 --------------------------------------------------------------------------------------------------------------------------------------------
