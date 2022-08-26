@@ -148,36 +148,33 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Verificar se os endereços MAC's não estão iguais
 
 ### Figura 30: Endereço MAC e modo bridge - PC 1 VM1- Emylle
-<img src = "imagesEmylle/VM1Emylle_enderecoMACeModobridge.jpg" />
+<img src = "imagesEmylle/modo bridge - vm01.png" />
 
 ### Figura 31: Endereço MAC e modo bridge - PC 1 VM2- Emylle
-<img src = "imagesEmylle/VM2Emylle_enderecoMACeModoBridge.jpg" />
+<img src = "imagesEmylle/modo bridge-vm02.png" />
 
 ### Figura 32: Endereço MAC e modo bridge - PC 2 VM1- Renata
-<img src ="imagesRenata/VM1renata_endereçoMAC.jpg" />
-
-### Figura 33: Endereço MAC e modo bridge - PC 2 VM2- Renata
-<img src ="imagesRenata/VM2renata_endereçoMac.jpg" />
+<img src ="imagesRenata/ModoBridge.png" />
  
- ### Figura 34: Endereço MAC e modo bridge - PC 4 VM1
+ ### Figura 33: Endereço MAC e modo bridge - PC 4 VM1
 <img src ="imagesPC4/VM1bridgeEndMacPC4.png" />
 
-### Figura 35: Endereço MAC e modo bridge - PC 4 VM2
+### Figura 34: Endereço MAC e modo bridge - PC 4 VM2
 <img src ="imagesPC4/VM2bridgeEndMacPC4.png" />
 
 ## 5 PASSO - ATIVAR O HOST ONLY
  - Ativar a interface no computador para a comunicação Host-VM
  - Configurar o servidor DCHP do adaptador VnetBox0
  
- ### Figura 36: DHCP - PC 3 - Jefferson
+ ### Figura 35: DHCP - PC 3 - Jefferson
  <img src = "imagesJefferson/Netplan das VMs.png" />
 
  
-  ### Figura 37: Vnetbox0 - PC 3 - Jefferson
+  ### Figura 38: Vnetbox0 - PC 3 - Jefferson
  <img src = "imagesJefferson/Jefferson_VM-01(hostonly).png" />
  
  - Ativar as configurações da interface na VM para o servidor dhcp para o adaptador 2 (enp0s8)
  
- ### Figura 38: enp0s8 - PC 3 - Jefferson
+ ### Figura 39: enp0s8 - PC 3 - Jefferson
  <img src = "imagesJefferson/Ifconfig das máquinas - jefferson.png" />
  
