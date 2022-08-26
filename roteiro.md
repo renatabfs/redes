@@ -147,7 +147,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesRenata/UsersAdicionados.png" />
  
 ### Figura 26: Users criados - PC 3 - Jefferson
-<img src = "imagesJefferson/ususarios.png" />
+<img src = "imagesJefferson/usuarios.png" />
                                                     
 ## Figura 27: Users criados - PC 4
 <img src = "imagesPC4/userscriadosPC4.png" />
