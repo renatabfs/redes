@@ -1,5 +1,5 @@
 #1 PLANEJAMENTO
-
+```
 Tabela 1: Planilha de IP's
 -------------------------------------------------------------------------------------------------------------------------------------------
 |  DESCRICAO                    |          IP            |     hostname             |          FQDN                     |      aliase      |
@@ -13,7 +13,7 @@ Tabela 1: Planilha de IP's
 | PC4-GRUPO7-VM1-equipe7-914    | 192.168.14.103/28      |    vm1-pc4-grupo7        | vm1-pc4.grupo7-914.ifalara.net    |       vm1        |
 | PC4-GRUPO7-VM1-equipe7-914    | 192.168.14.104/28      |    vm2-pc4-grupo7        | vm2-pc4.grupo7-914.ifalara.net    |       vm2        |
 --------------------------------------------------------------------------------------------------------------------------------------------
-
+```
 # EXECUÇÃO
 # 1 PASSO
 ## Importar as ISOS
