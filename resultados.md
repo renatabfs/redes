@@ -33,5 +33,5 @@
 ### Imagem 7: Logando via HostOnly - Renata - PC2
 <img src = "imagesJefferson/HostOnly_renata.png" />
 
-### Imagem 8: Logando via HostOnly - JEfferson - PC3
+### Imagem 8: Logando via HostOnly - Jefferson - PC3
 <img src = "imagesJefferson/HostOnly_jefferson.png" />
