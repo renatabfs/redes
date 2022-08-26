@@ -64,6 +64,9 @@ sudo nano /etc/netplan/01-netcfg.yaml
 ### Figura 7: Ifconfig - PC3 - Jefferson
 <img src = "imagesJefferson/Ifconfig das máquinas - jefferson.png" />
 
+### Figura 8: Ifconfig - PC4 
+<img src = "imagesPC4/ifconfigsPC4.png" />
+
 - Caso o comando não exista, executar ``` sudo apt install net-tools```
 
 # 3 PASSO
