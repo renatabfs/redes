@@ -51,7 +51,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 ### Figura 4: Arquivo netplan - PC3 - Jefferson
 
-<img src = "imagesJefferson/netplan.png" />
+<img src = "imagesJefferson/Netplan.png" />
 
 ### Figura 5: Arquivo netplan - PC4
 
