@@ -158,7 +158,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Deve obedecer os seguintes formatos: <hostname/ip/dominio/aliase>
 
 ### Figura 29: Config de host - PC 1 - Emylle
-<img src = "imagesEmylle/hosts.png" />
+<img src = "imagesEmylle/Hosts.png" />
 
 ### Figura 30: Config de host - PC 2 - Renata
 <img src = "imagesRenata/ArquivoHosts.png" />
