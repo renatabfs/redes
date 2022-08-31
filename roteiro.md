@@ -43,7 +43,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Adicionar dhcp4: false
 
 ### Figura 2: Arquivo netplan - PC1 - Emylle
-<img src = "imagesEmylle/netconfig.png" />
+<img src = "imagesEmylle/Netplan.png" />
 
 ### Figura 3: Arquivo netplan - PC2 - Renata
 
