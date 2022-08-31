@@ -192,20 +192,35 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 ### Figura 39: Endereço MAC e modo bridge - PC 4 VM2
 <img src ="imagesPC4/VM2bridgeEndMacPC4.png" />
+ 
+ - Ligar as máquinas ao switch por meio do cabo de rede
+ 
+ ### Figura 40: Máquinas 1 e 2 com os cabos
+<img src ="Infraestrutura de rede/pc1e2.jpg " />
+ 
+ ### Figura 41: Máquinas 3 e 4 com os cabos
+<img src ="Infraestrutura de rede/pc3e4.jpg " />
+ 
+### Figura 42: Switch
+<img src ="Infraestrutura de rede/switch.jpg " />
+ 
+ ### Figura 43: Visão geral
+<img src ="Infraestrutura de rede/tudo.jpg " />
+
 
 ## 5 PASSO - ATIVAR O HOST ONLY
  - Ativar a interface no computador para a comunicação Host-VM
  - Configurar o servidor DCHP do adaptador VnetBox0
  
- ### Figura 40: DHCP - PC 3 - Jefferson
+ ### Figura 44: DHCP - PC 3 - Jefferson
  <img src = "imagesJefferson/Netplan.png" />
 
-  ### Figura 41: Vnetbox0 - PC 3 - Jefferson
+  ### Figura 45: Vnetbox0 - PC 3 - Jefferson
  <img src = "imagesJefferson/Jefferson_VM-01(hostonly).png" />
  
  - Ativar as configurações da interface na VM para o servidor dhcp para o adaptador 2 (enp0s8)
  
- ### Figura 42: enp0s8 - PC 3 - Jefferson
+ ### Figura 46: enp0s8 - PC 3 - Jefferson
  <img src = "imagesJefferson/Ifconfig.png" />
  
 # [Resultados](https://github.com/renatabfs/redes/blob/main/resultados.md)
