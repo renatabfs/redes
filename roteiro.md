@@ -55,7 +55,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 
 ### Figura 5: Arquivo netplan - PC4
 
-<img src = "imagesPC4/configuracoesdeIPpc4.png" />
+<img src = "imagesPC4/Netpan.png" />
 
 - Por fim, executar ``` sudo netplan apply ```
 - Verificar no ``` ifconfig -a ``` se alterações foram aplicadas.
@@ -81,7 +81,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 - Seguir a planilha: https://github.com/renatabfs/redes/blob/main/planilha.md
 
 ### Figura 10: Adicionando os Hosts no PC4
-<img src = "imagesPC4/setandohostsPC4.png" />
+<img src = "imagesPC4/Hosts.png" />
      
 - Mudar as configurações de IP e a rede para NAT .
 
