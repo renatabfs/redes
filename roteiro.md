@@ -164,7 +164,7 @@ sudo nano /etc/netplan/01-netcfg.yaml
 <img src = "imagesRenata/ArquivoHosts.png" />
 
 ### Figura 31: Config de host - PC 3 - Jefferson
-<img src = "imagesJefferson/hosts.png" />
+<img src = "imagesJefferson/Hosts.png" />
  
  ### Figura 32: Config de host - PC 4
 <img src = "imagesPC4/adicionaetchostsPC4.png" />
