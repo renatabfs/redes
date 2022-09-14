@@ -32,5 +32,9 @@
 ### Imagem 7: Logando via HostOnly - Jefferson - PC3
 <img src = "imagesJefferson/HostOnly_jefferson.png" />
 
-### Imagem 7: Logando via HostOnly - PC4
-<img src = "imagesJefferson/dentro_pc4.png " />
+### Imagem 8: Logando via HostOnly - emylle1-grupo7 para renata2-grupo7
+<img src = "imagesJefferson/emylle1ren2.png" />
+
+### Imagem 9: Logando via HostOnly - vm2-pc4-grupo7 para jefferson2-grupo7
+<img src = "imagesJefferson/pc4jeff2.png" />
+
